@@ -1,0 +1,86 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: iceandfiregreybox.map
+Output file: iceandfiregreybox.bsp
+
+---- LoadMapFile ----
+          934 faces
+          156 brushes
+          154 entities
+           10 unique texnames
+          188 texinfo
+
+Opened WAD: D:/QuakeDev/wads/prototype_1_2.wad
+Opened WAD: D:/QuakeDev/wads/START.WAD
+Opened WAD: D:/QuakeDev/wads/hipnotic.wad
+Opened WAD: D:/QuakeDev/wads/rogue.wad
+Opened WAD: D:/QuakeDev/wads/id1.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          156 brushes
+          172 planes
+---- CSGFaces ----
+          934 brushfaces
+          935 csgfaces
+          880 mergedfaces
+---- SolidBSP ----
+         2042 split nodes
+          801 solid leafs
+         1095 empty leafs
+          147 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         3953 leaffaces
+         3775 nodefaces
+---- Portalize ----
+         1242 vis leafs
+         1242 vis clusters
+         3490 vis portals
+---- FillOutside ----
+          453 outleafs
+---- MergeAll ----
+          802 mergefaces
+---- SolidBSP ----
+          703 split nodes
+          323 solid leafs
+          350 empty leafs
+           31 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         2337 leaffaces
+         1927 nodefaces
+---- Portalize ----
+          381 vis leafs
+          381 vis clusters
+         1214 vis portals
+---- Tjunc ----
+         1502 world edges
+         6134 edge points
+         1682 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+Processing hull 2...
+---- WriteBSPFile ----
+Wrote iceandfiregreybox.bsp
+          278 planes             5560
+         2392 vertexes          28704
+          703 nodes             16872
+          156 texinfo            6240
+         1927 faces             38540
+         1947 clipnodes         15576
+          382 leafs             10696
+         2337 marksurfaces       4674
+         9394 surfedges         37576
+         4698 edges             18792
+           10 textures         133724
+              lightdata             0
+              visdata               0
+              entdata           10555
+
+0.443 seconds elapsed
+Peak memory usage: 12668546 (12.1M)

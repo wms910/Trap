@@ -1,0 +1,82 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: GreyBoxing.map
+Output file: GreyBoxing.bsp
+
+---- LoadMapFile ----
+          718 faces
+          120 brushes
+          150 entities
+            9 unique texnames
+          101 texinfo
+
+Opened WAD: D:/QuakeDev/wads/prototype_1_2.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          120 brushes
+          147 planes
+---- CSGFaces ----
+          718 brushfaces
+          696 csgfaces
+          589 mergedfaces
+---- SolidBSP ----
+         1405 split nodes
+          647 solid leafs
+          751 empty leafs
+            8 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         3150 leaffaces
+         3044 nodefaces
+---- Portalize ----
+          759 vis leafs
+          759 vis clusters
+         2143 vis portals
+---- FillOutside ----
+          358 outleafs
+---- MergeAll ----
+          468 mergefaces
+---- SolidBSP ----
+          545 split nodes
+          275 solid leafs
+          265 empty leafs
+            6 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         1861 leaffaces
+         1609 nodefaces
+---- Portalize ----
+          271 vis leafs
+          271 vis clusters
+          884 vis portals
+---- Tjunc ----
+         1255 world edges
+         5214 edge points
+         1040 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+Processing hull 2...
+---- WriteBSPFile ----
+Wrote GreyBoxing.bsp
+          237 planes             4740
+         2066 vertexes          24792
+          545 nodes             13080
+           70 texinfo            2800
+         1609 faces             32180
+         1621 clipnodes         12968
+          272 leafs              7616
+         1861 marksurfaces       3722
+         7480 surfedges         29920
+         3741 edges             14964
+            9 textures         130960
+              lightdata             0
+              visdata               0
+              entdata           10169
+
+0.345 seconds elapsed
+Peak memory usage: 9879366 (9.4M)
