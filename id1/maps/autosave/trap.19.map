@@ -2485,6 +2485,23 @@
 }
 // entity 173
 {
+"classname" "func_door_secret"
+"targetname" "sd3"
+"sounds" "1"
+"spawnflags" "9"
+"angle" "180"
+// brush 0
+{
+( 136 896 32 ) ( 136 896 33 ) ( 136 895 32 ) 128_gold_3 64 16 180 1 -1
+( 104 944 32 ) ( 103 944 32 ) ( 104 944 33 ) 128_gold_3 40 16 180 1 -1
+( 232 1024 -0 ) ( 231 1024 -0 ) ( 232 1023 -0 ) 128_gold_3 40 -64 180 1 1
+( 104 896 208 ) ( 104 895 208 ) ( 103 896 208 ) 128_gold_3 40 -64 180 1 1
+( 232 960 -0 ) ( 232 960 1 ) ( 231 960 -0 ) 128_gold_3 40 16 180 1 -1
+( 184 1024 -0 ) ( 184 1023 -0 ) ( 184 1024 1 ) 128_gold_3 64 16 180 1 -1
+}
+}
+// entity 174
+{
 "classname" "func_button"
 "angle" "0"
 "lip" "2"
@@ -2502,7 +2519,7 @@
 ( 292 1536 72 ) ( 292 1536 73 ) ( 292 1537 72 ) +0button_3 -0 8 -0 1 1
 }
 }
-// entity 174
+// entity 175
 {
 "classname" "func_door_secret"
 "angle" "180"
@@ -2519,7 +2536,7 @@
 ( 440 1616 -0 ) ( 440 1615 -0 ) ( 440 1616 1 ) 128_gold_3 -112 16 180 1 -1
 }
 }
-// entity 175
+// entity 176
 {
 "classname" "func_door"
 "spawnflags" "20"
@@ -2533,27 +2550,27 @@
 ( -392 1632 -16 ) ( -392 1631 -16 ) ( -392 1632 -15 ) 128_gold_3 -0 -0 180 1 -1
 }
 }
-// entity 176
+// entity 177
 {
 "classname" "item_rockets"
 "origin" "360 1352 -0"
 }
-// entity 177
+// entity 178
 {
 "classname" "item_rockets"
 "origin" "440 1352 -0"
 }
-// entity 178
+// entity 179
 {
 "classname" "item_spikes"
 "origin" "104 760 -0"
 }
-// entity 179
+// entity 180
 {
 "classname" "item_spikes"
 "origin" "184 760 -0"
 }
-// entity 180
+// entity 181
 {
 "classname" "trigger_monsterjump"
 "angle" "180"
@@ -2567,7 +2584,7 @@
 ( -132 436 140 ) ( -132 436 141 ) ( -132 437 140 ) trigger -52 -4 -0 1 1
 }
 }
-// entity 181
+// entity 182
 {
 "classname" "trigger_monsterjump"
 "angle" "90"
@@ -2581,7 +2598,7 @@
 ( 144 476 140 ) ( 144 475 140 ) ( 144 476 141 ) trigger -36 -4 180 1 -1
 }
 }
-// entity 182
+// entity 183
 {
 "classname" "trigger_monsterjump"
 "angle" "180"
@@ -2595,7 +2612,7 @@
 ( -52 1140 140 ) ( -52 1140 141 ) ( -52 1141 140 ) trigger -52 -4 -0 1 1
 }
 }
-// entity 183
+// entity 184
 {
 "classname" "trigger_monsterjump"
 "angle" "0"
@@ -2609,7 +2626,7 @@
 ( 64 1140 140 ) ( 64 1140 141 ) ( 64 1141 140 ) trigger 12 -4 -0 1 1
 }
 }
-// entity 184
+// entity 185
 {
 "classname" "trigger_once"
 "target" "ut1"
@@ -2623,19 +2640,19 @@
 ( -384 1744 80 ) ( -384 1743 80 ) ( -384 1744 81 ) trigger -16 -32 180 1 -1
 }
 }
-// entity 185
+// entity 186
 {
 "classname" "monster_enforcer"
 "origin" "-320 2016 184"
 "angle" "180"
 "targetname" "ut1"
 }
-// entity 186
+// entity 187
 {
 "classname" "item_key2"
 "origin" "-320 1200 344"
 }
-// entity 187
+// entity 188
 {
 "classname" "trigger_once"
 "target" "t_two"
@@ -2650,10 +2667,10 @@
 ( 136 304 32 ) ( 136 304 33 ) ( 136 305 32 ) trigger -48 16 -0 1 1
 }
 }
-// entity 188
+// entity 189
 {
 "classname" "func_door"
-"spawnflags" "12"
+"spawnflags" "8"
 // brush 0
 {
 ( -440 1728 -16 ) ( -440 1729 -16 ) ( -440 1728 -15 ) 128_gold_3 96 -0 -0 1 1
@@ -2664,115 +2681,115 @@
 ( -392 1856 16 ) ( -392 1856 17 ) ( -392 1857 16 ) 128_gold_3 96 -0 -0 1 1
 }
 }
-// entity 189
+// entity 190
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-444 1860 92"
 "angle" "270"
 }
-// entity 190
+// entity 191
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-444 1924 156"
 "angle" "270"
 }
-// entity 191
+// entity 192
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-444 2004 212"
 "angle" "270"
 }
-// entity 192
+// entity 193
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-372 2044 212"
 "angle" "270"
 }
-// entity 193
+// entity 194
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-292 2020 212"
 "angle" "270"
 }
-// entity 194
+// entity 195
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-292 1956 244"
 "angle" "270"
 }
-// entity 195
+// entity 196
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-292 1884 316"
 "angle" "270"
 }
-// entity 196
+// entity 197
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-260 1748 396"
 "angle" "270"
 }
-// entity 197
+// entity 198
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-380 1748 396"
 "angle" "270"
 }
-// entity 198
+// entity 199
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-380 1620 396"
 "angle" "270"
 }
-// entity 199
+// entity 200
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-380 1364 396"
 "angle" "270"
 }
-// entity 200
+// entity 201
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-380 1492 396"
 "angle" "270"
 }
-// entity 201
+// entity 202
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-380 1236 396"
 "angle" "270"
 }
-// entity 202
+// entity 203
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-324 1172 396"
 "angle" "270"
 }
-// entity 203
+// entity 204
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-260 1364 396"
 "angle" "270"
 }
-// entity 204
+// entity 205
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-260 1236 396"
 "angle" "270"
 }
-// entity 205
+// entity 206
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-260 1492 396"
 "angle" "270"
 }
-// entity 206
+// entity 207
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-260 1620 396"
 "angle" "270"
 }
-// entity 207
+// entity 208
 {
 "classname" "trigger_once"
 "target" "t4"
@@ -2786,7 +2803,7 @@
 ( -144 408 -0 ) ( -144 408 1 ) ( -144 409 -0 ) trigger -24 16 -0 1 1
 }
 }
-// entity 208
+// entity 209
 {
 "classname" "trigger_once"
 "target" "t5"
@@ -2800,7 +2817,7 @@
 ( 56 592 -0 ) ( 56 592 1 ) ( 56 593 -0 ) trigger -16 16 -0 1 1
 }
 }
-// entity 209
+// entity 210
 {
 "classname" "trigger_once"
 "target" "t3"
@@ -2812,22 +2829,5 @@
 ( 96 536 112 ) ( 95 536 112 ) ( 96 537 112 ) trigger -24 -32 90 1 1
 ( 96 472 32 ) ( 96 472 33 ) ( 95 472 32 ) trigger 32 16 180 1 -1
 ( 256 408 -0 ) ( 256 408 1 ) ( 256 409 -0 ) trigger -24 16 -0 1 1
-}
-}
-// entity 210
-{
-"classname" "func_door_secret"
-"targetname" "sd3"
-"sounds" "1"
-"spawnflags" "9"
-"angle" "180"
-// brush 0
-{
-( 136 896 32 ) ( 136 896 33 ) ( 136 895 32 ) 128_gold_3 64 16 180 1 -1
-( 104 944 32 ) ( 103 944 32 ) ( 104 944 33 ) 128_gold_3 40 16 180 1 -1
-( 232 1024 -0 ) ( 231 1024 -0 ) ( 232 1023 -0 ) 128_gold_3 40 -64 180 1 1
-( 104 896 208 ) ( 104 895 208 ) ( 103 896 208 ) 128_gold_3 40 -64 180 1 1
-( 232 960 -0 ) ( 232 960 1 ) ( 231 960 -0 ) 128_gold_3 40 16 180 1 -1
-( 184 1024 -0 ) ( 184 1023 -0 ) ( 184 1024 1 ) 128_gold_3 64 16 180 1 -1
 }
 }

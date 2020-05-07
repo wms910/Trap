@@ -5,35 +5,35 @@ LoadBSPFile: 'trap.bsp'
 BSP is version 29
 --- LoadEntities ---
 WARNING: entity at (160 816 -0) (weapon_nailgun) has empty key/value "angle" ""
-WARNING: brush entity with mins (121.00 145.00 1.00) maxs (135.00 255.00 111.0) (trigger_once) has empty key/value "targetname" ""
 WARNING: brush entity with mins (-31.00 941.00 1.00) maxs (31.00 963.00 111.00) (trigger_once) has empty key/value "target" ""
 WARNING: brush entity with mins (121.00 1153.00 1.00) maxs (183.00 1211.00 111.) (trigger_once) has empty key/value "target" ""
 WARNING: brush entity with mins (-191.00 1145.00 1.0) maxs (-129.00 1203.00 111) (trigger_once) has empty key/value "target" ""
 WARNING: brush entity with mins (-127.00 1649.00 1.0) maxs (-65.00 1711.00 111.) (trigger_once) has empty key/value "target" ""
-195 entities read, 121 are lights.
+WARNING: brush entity with mins (121.00 145.00 1.00) maxs (135.00 255.00 111.0) (trigger_once) has empty key/value "targetname" ""
+211 entities read, 138 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	131 sky faces
-	173 solid faces
+	178 sky faces
+	341 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 121 initial lights
-SetupLights: 121 after surface lights
-SetupLights: 121 after jittering
+SetupLights: 138 initial lights
+SetupLights: 138 after surface lights
+SetupLights: 138 after jittering
 --- EstimateLightVisibility ---
 0....1....2....3....4....5....6....7....8....9....
-Final count: 121 lights 0 suns in use.
+Final count: 138 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 16080
+lightdatasize: 21086
 0 switchable light styles (32 max)
 Writing trap.bsp as BSP version 29
-0.140 seconds elapsed
+0.145 seconds elapsed
 
 stats:
-10.380429 lights tested, 7.913018 hits per sample point
+9.378529 lights tested, 6.915808 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps

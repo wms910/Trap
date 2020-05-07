@@ -4,59 +4,59 @@ Output file: trap.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-          780 faces
-          130 brushes
-          195 entities
-           10 unique texnames
-          140 texinfo
+         1026 faces
+          171 brushes
+          211 entities
+           11 unique texnames
+          243 texinfo
 
 Opened WAD: D:/QuakeDev/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          107 brushes
-           92 planes
+          146 brushes
+          134 planes
 ---- CSGFaces ----
-          642 brushfaces
-          500 csgfaces
-          582 mergedfaces
+          876 brushfaces
+          820 csgfaces
+          915 mergedfaces
 ---- SolidBSP ----
-          573 split nodes
-          151 solid leafs
-          371 empty leafs
-           52 water leafs
+          874 split nodes
+          286 solid leafs
+          517 empty leafs
+           72 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         1225 leaffaces
-         1170 nodefaces
+         1863 leaffaces
+         1737 nodefaces
 ---- Portalize ----
-          423 vis leafs
-          423 vis clusters
-          992 vis portals
+          589 vis leafs
+          589 vis clusters
+         1389 vis portals
 ---- FillOutside ----
-          317 outleafs
+          418 outleafs
 ---- MergeAll ----
-          251 mergefaces
+          430 mergefaces
 ---- SolidBSP ----
-          163 split nodes
-          114 solid leafs
-           29 empty leafs
-           21 water leafs
+          275 split nodes
+          181 solid leafs
+           60 empty leafs
+           35 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          340 leaffaces
-          306 nodefaces
+          605 leaffaces
+          531 nodefaces
 ---- Portalize ----
-           50 vis leafs
-           50 vis clusters
-           64 vis portals
+           95 vis leafs
+           95 vis clusters
+          128 vis portals
 ---- Tjunc ----
-          279 world edges
-          957 edge points
-          326 edges added by tjunctions
+          497 world edges
+         1671 edge points
+          530 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -66,20 +66,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote trap.bsp
-          291 planes             5820
-          568 vertexes           6816
-          301 nodes              7224
-          108 texinfo            4320
-          456 faces              9120
-         1589 clipnodes         12712
-          189 leafs              5292
-          490 marksurfaces        980
-         2150 surfedges          8600
-         1100 edges              4400
-           13 textures         129776
+          337 planes             6740
+          850 vertexes          10200
+          425 nodes             10200
+          177 texinfo            7080
+          683 faces             13660
+         2105 clipnodes         16840
+          246 leafs              6888
+          757 marksurfaces       1514
+         3258 surfedges         13032
+         1672 edges              6688
+           14 textures         135260
               lightdata             0
               visdata               0
-              entdata           15297
+              entdata           17041
 
-0.305 seconds elapsed
-Peak memory usage: 5126312 (4.9M)
+0.349 seconds elapsed
+Peak memory usage: 7261174 (6.9M)
