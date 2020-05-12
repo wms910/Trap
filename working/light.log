@@ -4,36 +4,37 @@ running with 12 threads
 LoadBSPFile: 'trap.bsp'
 BSP is version 29
 --- LoadEntities ---
-WARNING: entity at (160 816 -0) (weapon_nailgun) has empty key/value "angle" ""
-WARNING: brush entity with mins (-31.00 941.00 1.00) maxs (31.00 963.00 111.00) (trigger_once) has empty key/value "target" ""
-WARNING: brush entity with mins (121.00 1153.00 1.00) maxs (183.00 1211.00 111.) (trigger_once) has empty key/value "target" ""
-WARNING: brush entity with mins (-191.00 1145.00 1.0) maxs (-129.00 1203.00 111) (trigger_once) has empty key/value "target" ""
-WARNING: brush entity with mins (-127.00 1649.00 1.0) maxs (-65.00 1711.00 111.) (trigger_once) has empty key/value "target" ""
-WARNING: brush entity with mins (121.00 145.00 1.00) maxs (135.00 255.00 111.0) (trigger_once) has empty key/value "targetname" ""
-211 entities read, 138 are lights.
+WARNING: entity at (200 648 -0) (weapon_nailgun) has empty key/value "angle" ""
+WARNING: brush entity with mins (-47.00 765.00 1.00) maxs (47.00 787.00 111.00) (trigger_once) has empty key/value "target" ""
+WARNING: brush entity with mins (201.00 1025.00 1.00) maxs (263.00 1083.00 111.) (trigger_once) has empty key/value "target" ""
+WARNING: brush entity with mins (-239.00 1033.00 1.0) maxs (-177.00 1091.00 111) (trigger_once) has empty key/value "target" ""
+WARNING: brush entity with mins (-127.00 1537.00 1.0) maxs (-65.00 1599.00 111.) (trigger_once) has empty key/value "target" ""
+WARNING: brush entity with mins (121.00 -175.00 1.00) maxs (135.00 -65.00 111.0) (trigger_once) has empty key/value "targetname" ""
+219 entities read, 144 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	178 sky faces
-	341 solid faces
+	558 sky faces
+	1297 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 138 initial lights
-SetupLights: 138 after surface lights
-SetupLights: 138 after jittering
+SetupLights: 144 initial lights
+SetupLights: 144 after surface lights
+SetupLights: 144 after jittering
+WARNING: couldn't nudge light in solid at -444.000000 1924.000000 156.000000
 --- EstimateLightVisibility ---
 0....1....2....3....4....5....6....7....8....9....
-Final count: 138 lights 0 suns in use.
+Final count: 144 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 21086
+lightdatasize: 25624
 0 switchable light styles (32 max)
 Writing trap.bsp as BSP version 29
-0.145 seconds elapsed
+0.242 seconds elapsed
 
 stats:
-9.378529 lights tested, 6.915808 hits per sample point
+5.555084 lights tested, 3.057010 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
